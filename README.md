@@ -1,2 +1,2 @@
 # fartengine
-A terrible C# console game engine that somehow works
+A mediocre C# "game engine" that works in the console
