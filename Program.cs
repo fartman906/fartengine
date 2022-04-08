@@ -1,18 +1,16 @@
-﻿using System.Threading;
+﻿// main file that starts the game and does stuff
 
-
-namespace Test 
+namespace Game
 {
     class Program
     {
         static public void Main(String[] args)
         {
             FartEngine game = new FartEngine();
-
             game.Init();
 
             //Main Loop
-            while (true)
+            while (game.GameRunning)
             {
                 game.Input();
                 game.Frame(); 
